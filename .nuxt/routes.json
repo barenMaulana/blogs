@@ -1,0 +1,17 @@
+[
+  {
+    "name": "index___en",
+    "path": "/",
+    "component": "D:\\\\Code\\\\my-blog\\\\blogs\\\\node_modules\\\\@jsilva-pt\\\\nuxt-content-theme-blog\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "url": "/",
+    "_name": "_237cfbbf"
+  },
+  {
+    "name": "slug___en",
+    "path": "/:slug",
+    "component": "D:\\\\Code\\\\my-blog\\\\blogs\\\\node_modules\\\\@jsilva-pt\\\\nuxt-content-theme-blog\\\\pages\\\\_slug.vue",
+    "chunkName": "pages/_slug",
+    "_name": "_21c65a77"
+  }
+]
