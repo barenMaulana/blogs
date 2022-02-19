@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://barenmaulana.github.io/sitemap.xml
