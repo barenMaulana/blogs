@@ -1,10 +1,10 @@
 ---
 title: Application Manager Tidak Muncul Di Cpanel
-description: Waktu itu gua mau deploy nuxt app kan ke server, cuma bingung nih soalnya application manager ngga muncul di cpanel, semoga blog gua ini bisa bantu kalian yang punya masalah serupa
+description: Waktu itu saya mau deploy nuxt app kan ke server, cuma bingung nih soalnya application manager ngga muncul di cpanel, semoga blog saya ini bisa bantu kamu yang punya masalah serupa.
 publishedAt: 2022-02-19
 image: https://images.unsplash.com/photo-1626624338641-b99e0d32c958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80
 authors:
-  - name: Baren Maulana
+  - name: Baren
     avatarUrl: https://lh3.googleusercontent.com/a-/AOh14Gj5QAs8KJgc6n-0YBzBgyjTJb7zsV_mYxoHmifxkw=s96-c
     link: https://github.com/barenMaulana
 tags:
@@ -19,10 +19,10 @@ Oke kita mulai aja langsung, inget tujuan kita munculin **Application Manager** 
 2. akses cpanel
 
 ## Login ke WHM
-untuk login ke whm, kalian bisa lewat **namadomain.com:2087** kalau ngga bisa, coba cek ke dashboard tempat kalian beli vps.
+untuk login ke whm, kamu bisa lewat **namadomain.com:2087** kalau ngga bisa, coba cek ke dashboard tempat kamu beli vps.
 
 ## Cari EasyApache 4
-di kolom search sebelah kiri atas, kalian bisa mengetikan **easyApache** untuk mencari easyApache 4 di WHM.
+di kolom search sebelah kiri atas, kamu bisa mengetikan **easyApache** untuk mencari easyApache 4 di WHM.
 
 ![image](/gambar-content/server/easyapache4.png)
 
@@ -35,10 +35,10 @@ klik **additional packages**, lalu install **nodejs**
 
 ![image](/gambar-content/server/nodejs.png)
 
-Setelah itu kalian bisa klik **Provision** buat save perubahan yang sudah kalian lakukan.
+Setelah itu kamu bisa klik **Provision** buat save perubahan yang sudah kamu lakukan.
 
 ## Buka Terminal WHM
-buka terminal, kalian bisa melalui **ssh** atau biar gampang bisa lewat whm aja, karena OS saya centos jadi saya pake *yum*.
+buka terminal, kamu bisa melalui **ssh** atau biar gampang bisa lewat whm aja, karena OS saya centos jadi saya pake *yum*.
 
 <code-group>
   <code-block label="terminal/ssh" active>
@@ -51,4 +51,4 @@ buka terminal, kalian bisa melalui **ssh** atau biar gampang bisa lewat whm aja,
 </code-group>
 
 ## Penutup
-Oke selesai, sekarang kalian bisa akses cpanel, lalu cari **Application Manager** dibagian software, semoga ada ya :)
+Oke selesai, sekarang kamu bisa akses cpanel, lalu cari **Application Manager** dibagian software, semoga ada ya :)
