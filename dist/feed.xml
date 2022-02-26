@@ -4,16 +4,24 @@
         <title>biaren blog</title>
         <link>https://barenmaulana.github.io</link>
         <description></description>
-        <lastBuildDate>Mon, 21 Feb 2022 23:32:57 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 26 Feb 2022 10:53:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
+        <item>
+            <title><![CDATA[Perlu ngga bikin dokumentasi penggunaan sistem?]]></title>
+            <link>https://barenmaulana.github.io/dia-ngga-buat-dokumentasi</link>
+            <guid>https://barenmaulana.github.io/dia-ngga-buat-dokumentasi</guid>
+            <pubDate>Thu, 24 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dia merupakan sistem ERP untuk mengelola orderan dari berbagai marketplace, kenapa mereka ngga buat dokumentasi secara lengkap tentang fitur" yang ada di dalam nya?]]></description>
+            <content:encoded><![CDATA[Dia merupakan sistem ERP untuk mengelola orderan dari berbagai marketplace, kenapa mereka ngga buat dokumentasi secara lengkap tentang fitur" yang ada di dalam nya?]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Mending Pake WHM]]></title>
             <link>https://barenmaulana.github.io/mending-pake-whm</link>
             <guid>https://barenmaulana.github.io/mending-pake-whm</guid>
             <pubDate>Sun, 20 Feb 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Buat para kaum mending, VPS dipakein whm kaya ada manis-manis nya, blog ini menurut pribadi saya aja, mungkin orang lain berbeda.]]></description>
-            <content:encoded><![CDATA[Buat para kaum mending, VPS dipakein whm kaya ada manis-manis nya, blog ini menurut pribadi saya aja, mungkin orang lain berbeda.]]></content:encoded>
+            <description><![CDATA[WHM sangat membantu bagi kamu yang masih awam dalam dunia server, mungkin blog ini dapat membantu memutuskan untuk install WHM atau ngga di server kamu.]]></description>
+            <content:encoded><![CDATA[WHM sangat membantu bagi kamu yang masih awam dalam dunia server, mungkin blog ini dapat membantu memutuskan untuk install WHM atau ngga di server kamu.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Application Manager Tidak Muncul Di Cpanel]]></title>
