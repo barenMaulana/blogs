@@ -1,6 +1,6 @@
 ---
 title: Mending Pake WHM
-description: Buat para kaum mending, VPS dipakein whm kaya ada manis-manis nya, blog ini menurut pribadi saya aja, mungkin orang lain berbeda.
+description: WHM sangat membantu bagi kamu yang masih awam dalam dunia server, mungkin blog ini dapat membantu memutuskan untuk install WHM atau ngga di server kamu.
 publishedAt: 2022-02-20
 image: https://images.unsplash.com/photo-1417577097439-425fb7dec05e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80
 authors:
