@@ -4,8 +4,8 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _237cfbbf = () => interopDefault(import('..\\node_modules\\@jsilva-pt\\nuxt-content-theme-blog\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
-const _21c65a77 = () => interopDefault(import('..\\node_modules\\@jsilva-pt\\nuxt-content-theme-blog\\pages\\_slug.vue' /* webpackChunkName: "pages/_slug" */))
+const _44759bdf = () => interopDefault(import('..\\node_modules\\@jsilva-pt\\nuxt-content-theme-blog\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _42befa97 = () => interopDefault(import('..\\node_modules\\@jsilva-pt\\nuxt-content-theme-blog\\pages\\_slug.vue' /* webpackChunkName: "pages/_slug" */))
 
 const emptyFn = () => {}
 
@@ -20,11 +20,11 @@ export const routerOptions = {
 
   routes: [{
     path: "/",
-    component: _237cfbbf,
+    component: _44759bdf,
     name: "index___en"
   }, {
     path: "/:slug",
-    component: _21c65a77,
+    component: _42befa97,
     name: "slug___en"
   }],
 

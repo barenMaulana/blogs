@@ -12,18 +12,18 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_5d521eac from 'nuxt_plugin_plugin_5d521eac' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_pluginclient_c8276d3c from 'nuxt_plugin_pluginclient_c8276d3c' // Source: .\\content\\plugin.client.js (mode: 'client')
-import nuxt_plugin_pluginserver_01a5baea from 'nuxt_plugin_pluginserver_01a5baea' // Source: .\\content\\plugin.server.js (mode: 'server')
-import nuxt_plugin_pluginutils_5a4d917f from 'nuxt_plugin_pluginutils_5a4d917f' // Source: .\\nuxt-i18n\\plugin.utils.js (mode: 'all')
-import nuxt_plugin_pluginrouting_99a089ec from 'nuxt_plugin_pluginrouting_99a089ec' // Source: .\\nuxt-i18n\\plugin.routing.js (mode: 'all')
-import nuxt_plugin_pluginmain_6cd81ca5 from 'nuxt_plugin_pluginmain_6cd81ca5' // Source: .\\nuxt-i18n\\plugin.main.js (mode: 'all')
-import nuxt_plugin_vuesocialsharingplugin_2ab2f248 from 'nuxt_plugin_vuesocialsharingplugin_2ab2f248' // Source: .\\vue-social-sharing-plugin.js (mode: 'all')
-import nuxt_plugin_workbox_0f109baa from 'nuxt_plugin_workbox_0f109baa' // Source: .\\workbox.js (mode: 'client')
-import nuxt_plugin_metaplugin_c9e168aa from 'nuxt_plugin_metaplugin_c9e168aa' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
-import nuxt_plugin_iconplugin_c0921dc2 from 'nuxt_plugin_iconplugin_c0921dc2' // Source: .\\pwa\\icon.plugin.js (mode: 'all')
-import nuxt_plugin_pluginserver_5eef5f3a from 'nuxt_plugin_pluginserver_5eef5f3a' // Source: .\\color-mode\\plugin.server.js (mode: 'server')
-import nuxt_plugin_pluginclient_0d94249c from 'nuxt_plugin_pluginclient_0d94249c' // Source: .\\color-mode\\plugin.client.js (mode: 'client')
+import nuxt_plugin_plugin_9d2b2268 from 'nuxt_plugin_plugin_9d2b2268' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_pluginclient_e5c0ecfc from 'nuxt_plugin_pluginclient_e5c0ecfc' // Source: .\\content\\plugin.client.js (mode: 'client')
+import nuxt_plugin_pluginserver_1a4e09ec from 'nuxt_plugin_pluginserver_1a4e09ec' // Source: .\\content\\plugin.server.js (mode: 'server')
+import nuxt_plugin_pluginutils_e0fb5542 from 'nuxt_plugin_pluginutils_e0fb5542' // Source: .\\nuxt-i18n\\plugin.utils.js (mode: 'all')
+import nuxt_plugin_pluginrouting_6e4306ea from 'nuxt_plugin_pluginrouting_6e4306ea' // Source: .\\nuxt-i18n\\plugin.routing.js (mode: 'all')
+import nuxt_plugin_pluginmain_5e0b5cc5 from 'nuxt_plugin_pluginmain_5e0b5cc5' // Source: .\\nuxt-i18n\\plugin.main.js (mode: 'all')
+import nuxt_plugin_vuesocialsharingplugin_5bedbb30 from 'nuxt_plugin_vuesocialsharingplugin_5bedbb30' // Source: .\\vue-social-sharing-plugin.js (mode: 'all')
+import nuxt_plugin_workbox_58e0ab6a from 'nuxt_plugin_workbox_58e0ab6a' // Source: .\\workbox.js (mode: 'client')
+import nuxt_plugin_metaplugin_433d23cb from 'nuxt_plugin_metaplugin_433d23cb' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
+import nuxt_plugin_iconplugin_47e4c93f from 'nuxt_plugin_iconplugin_47e4c93f' // Source: .\\pwa\\icon.plugin.js (mode: 'all')
+import nuxt_plugin_pluginserver_1a02ab1a from 'nuxt_plugin_pluginserver_1a02ab1a' // Source: .\\color-mode\\plugin.server.js (mode: 'server')
+import nuxt_plugin_pluginclient_976d8cdc from 'nuxt_plugin_pluginclient_976d8cdc' // Source: .\\color-mode\\plugin.client.js (mode: 'client')
 import nuxt_plugin_vueobservevisibility_66676af7 from 'nuxt_plugin_vueobservevisibility_66676af7' // Source: ..\\node_modules\\@jsilva-pt\\nuxt-content-theme-blog\\plugins\\vue-observe-visibility.js (mode: 'all')
 
 // Component: <ClientOnly>
@@ -188,52 +188,52 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_5d521eac === 'function') {
-    await nuxt_plugin_plugin_5d521eac(app.context, inject)
+  if (typeof nuxt_plugin_plugin_9d2b2268 === 'function') {
+    await nuxt_plugin_plugin_9d2b2268(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_pluginclient_c8276d3c === 'function') {
-    await nuxt_plugin_pluginclient_c8276d3c(app.context, inject)
+  if (process.client && typeof nuxt_plugin_pluginclient_e5c0ecfc === 'function') {
+    await nuxt_plugin_pluginclient_e5c0ecfc(app.context, inject)
   }
 
-  if (process.server && typeof nuxt_plugin_pluginserver_01a5baea === 'function') {
-    await nuxt_plugin_pluginserver_01a5baea(app.context, inject)
+  if (process.server && typeof nuxt_plugin_pluginserver_1a4e09ec === 'function') {
+    await nuxt_plugin_pluginserver_1a4e09ec(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginutils_5a4d917f === 'function') {
-    await nuxt_plugin_pluginutils_5a4d917f(app.context, inject)
+  if (typeof nuxt_plugin_pluginutils_e0fb5542 === 'function') {
+    await nuxt_plugin_pluginutils_e0fb5542(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginrouting_99a089ec === 'function') {
-    await nuxt_plugin_pluginrouting_99a089ec(app.context, inject)
+  if (typeof nuxt_plugin_pluginrouting_6e4306ea === 'function') {
+    await nuxt_plugin_pluginrouting_6e4306ea(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginmain_6cd81ca5 === 'function') {
-    await nuxt_plugin_pluginmain_6cd81ca5(app.context, inject)
+  if (typeof nuxt_plugin_pluginmain_5e0b5cc5 === 'function') {
+    await nuxt_plugin_pluginmain_5e0b5cc5(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_vuesocialsharingplugin_2ab2f248 === 'function') {
-    await nuxt_plugin_vuesocialsharingplugin_2ab2f248(app.context, inject)
+  if (typeof nuxt_plugin_vuesocialsharingplugin_5bedbb30 === 'function') {
+    await nuxt_plugin_vuesocialsharingplugin_5bedbb30(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_workbox_0f109baa === 'function') {
-    await nuxt_plugin_workbox_0f109baa(app.context, inject)
+  if (process.client && typeof nuxt_plugin_workbox_58e0ab6a === 'function') {
+    await nuxt_plugin_workbox_58e0ab6a(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_metaplugin_c9e168aa === 'function') {
-    await nuxt_plugin_metaplugin_c9e168aa(app.context, inject)
+  if (typeof nuxt_plugin_metaplugin_433d23cb === 'function') {
+    await nuxt_plugin_metaplugin_433d23cb(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_iconplugin_c0921dc2 === 'function') {
-    await nuxt_plugin_iconplugin_c0921dc2(app.context, inject)
+  if (typeof nuxt_plugin_iconplugin_47e4c93f === 'function') {
+    await nuxt_plugin_iconplugin_47e4c93f(app.context, inject)
   }
 
-  if (process.server && typeof nuxt_plugin_pluginserver_5eef5f3a === 'function') {
-    await nuxt_plugin_pluginserver_5eef5f3a(app.context, inject)
+  if (process.server && typeof nuxt_plugin_pluginserver_1a02ab1a === 'function') {
+    await nuxt_plugin_pluginserver_1a02ab1a(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_pluginclient_0d94249c === 'function') {
-    await nuxt_plugin_pluginclient_0d94249c(app.context, inject)
+  if (process.client && typeof nuxt_plugin_pluginclient_976d8cdc === 'function') {
+    await nuxt_plugin_pluginclient_976d8cdc(app.context, inject)
   }
 
   if (typeof nuxt_plugin_vueobservevisibility_66676af7 === 'function') {
